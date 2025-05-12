@@ -1,3 +1,8 @@
+# Docs and notebooks
+Docs/
+*.ipynb
+*.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,7 +177,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-# Docs and notebooks
-Docs/
-*.ipynb
