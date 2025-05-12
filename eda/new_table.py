@@ -30,7 +30,8 @@ result_table = df_2020[[
 print(result_table.info())
 print(result_table.head(3))
 
-# Saving the new dataset
+# Saving the new dataset .csv and .xlsx file
 df.to_csv('Dataset/output/new_table.csv', index=False)
+df.to_excel('Dataset/output/newtable.xlsx', sheet_name='Report', index=False, engine='openpyxl')
 
 print('\nNew table saved')
