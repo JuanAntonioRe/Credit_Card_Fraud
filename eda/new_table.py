@@ -33,4 +33,4 @@ print(result_table.head(3))
 # Saving the new dataset
 df.to_csv('Dataset/output/new_table.csv', index=False)
 
-print('New table saved')
+print('\nNew table saved')
