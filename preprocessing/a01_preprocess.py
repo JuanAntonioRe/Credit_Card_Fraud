@@ -29,3 +29,5 @@ print(df['fraud'].value_counts(normalize=True))
 
 # Saving the new dataset
 df.to_csv('Dataset/intermediate/preprocess_data.csv', index=False)
+
+print('\nPreprocess data saved')
